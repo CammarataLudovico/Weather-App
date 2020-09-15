@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" href="icon.png"> <!-- Icon displayed on the site Tab-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather-App </title> <!-- Title of the site -->
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <div class="app-wrap">
+      <header>
+          <input type="text" autocomplete="off" class="search-box"
+          placeholder="Search for a city" />  <!-- Text displayed in the search-box before the city input -->
+      </header>   
+      <main>
+          <section class="location" >
+              <div class="city"> Venice</div> <!-- Base city displayed -->
+              <div class="date"></div>
+          </section>
+          <div class="current">
+              <div class="temp">15<span>°c</span></div> <!-- Base temperature display -->
+              <div class="weather">Sunny</div> <!-- Base weather display -->
+              <div class="hi-low">13°c / 16°c</div> <!-- Base high-low temperature display -->
+          </div>
+      </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
