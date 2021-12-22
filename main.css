@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 } /* General settings*/
 
 body {
-    font-family: 'montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-image: url(bg.jpg);
     background-size: cover;
     background-position: top center;
@@ -62,6 +64,7 @@ main{
     font-size: 32px;
     font-weight: 500;
     margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
 } /*City displayed on screen settings */
 
 .location .date {
